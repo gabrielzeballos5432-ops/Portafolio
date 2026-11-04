@@ -12,5 +12,6 @@ There is no configured build, test, or lint command. The site is served directly
 
 - Keep visitor-facing content and navigation labels in Spanish.
 - Technology badges use SVG logos from Devicon's pinned CDN and Simple Icons for Wireshark, with visible text labels and empty image alt text. Keep the labels readable if external images are unavailable.
-- The HTML calls `scrollToProjects()` and `mensaje()` through inline button handlers; preserve these function names and their availability in `script.js` when changing those controls.
-- The card reveal effect depends on `.card` elements in the HTML, the `.visible` state in `style.css`, and the scroll listener in `script.js`; update the connected pieces together if changing that behavior.
+- Navigation uses native section anchors. The mobile menu shares the 640px breakpoint between CSS and JavaScript and keeps `aria-expanded` synchronized with `.is-open`; links remain available when JavaScript is disabled.
+- Cards are visible by default; IntersectionObserver adds a one-time `.reveal` animation. Respect `prefers-reduced-motion` in CSS and JavaScript without hiding content.
+- Technology logos are grouped by area, not generated in JavaScript. The ELIEZER preview is a local asset in `assets/`; preserve relative URLs for GitHub Pages.

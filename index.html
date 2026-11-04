@@ -4,120 +4,169 @@
     <meta charset="UTF-8">
     <title>Gabriel Zeballos | Portafolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio de Gabriel Zeballos, estudiante de Ingeniería de Sistemas y desarrollador web junior. Proyectos, tecnologías y contacto.">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
-    <nav class="navbar">
-    <div class="logo">GZ</div>
-    <ul>
-        <li><a href="#sobre">Sobre mí</a></li>
-        <li><a href="#proyectos">Proyectos</a></li>
-        <li><a href="#contacto">Contacto</a></li>
-    </ul>
-</nav>
-
-<header>
-    <h1>Gabriel Zeballos</h1>
-    <p>Estudiante de Ingeniería de Sistemas | Desarrollador Web Junior</p>
-    <button onclick="scrollToProjects()">Ver Proyectos</button>
-</header>
-
-<div class="container">
-
-
-    <section id="sobre">
-        <h2>Sobre mí</h2>
-        <div class="card">
-            <p>
-                Estudiante de Ingeniería de Sistemas con enfoque en desarrollo de software
-                y bases de datos relacionales. Experiencia en implementación de sistemas
-                académicos y comerciales utilizando PHP, JavaScript y MySQL.
-                Interesado en el área de desarrollo backend y soporte técnico.
-            </p>
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+    <nav class="navbar" aria-label="Navegación principal">
+        <div class="nav-inner container">
+            <a class="logo" href="#inicio" aria-label="Gabriel Zeballos, inicio">GZ<span aria-hidden="true">.</span></a>
+            <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links" hidden>Menú</button>
+            <ul id="nav-links">
+                <li><a href="#sobre">Sobre mí</a></li>
+                <li><a href="#tecnologias">Tecnologías</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto <span aria-hidden="true">↗</span></a></li>
+            </ul>
         </div>
-    </section>
+    </nav>
 
-    <section>
-        <h2>Tecnologías</h2>
-        <div class="skills">
-            <span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/python/python-original.svg" alt="" width="40" height="40">Python</span>
-            <span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/javascript/javascript-original.svg" alt="" width="40" height="40">JavaScript</span>
-            <span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/html5/html5-original.svg" alt="" width="40" height="40">HTML</span>
-            <span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/css3/css3-original.svg" alt="" width="40" height="40">CSS</span>
-            <span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/php/php-original.svg" alt="" width="40" height="40">PHP</span>
-            <span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/laravel/laravel-original.svg" alt="" width="40" height="40">Laravel</span>
-            <span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/angular/angular-original.svg" alt="" width="40" height="40">Angular</span>
-            <span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/flutter/flutter-original.svg" alt="" width="40" height="40">Flutter</span>
-            <span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/postgresql/postgresql-original.svg" alt="" width="40" height="40">PostgreSQL</span>
-            <span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/mysql/mysql-original.svg" alt="" width="40" height="40">MySQL</span>
-            <span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/microsoftsqlserver/microsoftsqlserver-original.svg" alt="" width="40" height="40">SQL Server</span>
-            <span><img class="github-logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/github/github-original.svg" alt="" width="40" height="40">GitHub</span>
-            <span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/git/git-original.svg" alt="" width="40" height="40">Git</span>
-            <span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/fastapi/fastapi-original.svg" alt="" width="40" height="40">FastAPI</span>
-            <span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/mongodb/mongodb-original.svg" alt="" width="40" height="40">MongoDB</span>
-            <span><img src="https://cdn.simpleicons.org/wireshark/1679A7" alt="" width="40" height="40">Wireshark</span>
+    <header id="inicio" class="hero container">
+        <div class="hero-copy">
+            <p class="eyebrow">DESARROLLO WEB · SISTEMAS · BASES DE DATOS</p>
+            <h1>Hola, soy<br><span>Gabriel Zeballos.</span></h1>
+            <p class="hero-role">Desarrollador Web Junior</p>
+            <p class="hero-description">Estudiante de Ingeniería de Sistemas. Desarrollo soluciones web con enfoque en backend y bases de datos, conectando ideas con aplicaciones funcionales.</p>
+            <div class="actions">
+                <a class="button button-primary" href="#proyectos">Ver proyectos <span aria-hidden="true">↗</span></a>
+                <a class="button button-secondary" href="#contacto">Contactar</a>
+            </div>
+            <a class="hero-social" href="https://github.com/gabrielzeballos5432-ops" target="_blank" rel="noopener noreferrer">Explorar mi GitHub <span aria-hidden="true">↗</span></a>
         </div>
-    </section>
-
-    <section id="proyectos">
-        <h2>Proyectos</h2>
-
-        <div class="card">
-            <img class="project-image" src="assets/eliezer.png" alt="Vista de la página de inicio de ELIEZER S.R.L., agencia despachante de aduana" width="1366" height="768" loading="lazy">
-            <h3>ELIEZER S.R.L. — Agencia Despachante de Aduana</h3>
-            <p>
-                Sitio web corporativo con información sobre servicios aduaneros,
-                importaciones y exportaciones, y canales de contacto para consultas.
-            </p>
-            <a class="project-link" href="https://www.eliezer-srl.com/" target="_blank" rel="noopener noreferrer">
-                Visitar sitio web <span aria-hidden="true">↗</span>
-            </a>
+        <div class="hero-panel" aria-label="Áreas de trabajo">
+            <div class="panel-header"><span class="panel-dots" aria-hidden="true">● ● ●</span><span>perfil / gabriel</span></div>
+            <div class="panel-body">
+                <span class="code-label" aria-hidden="true">&lt;developer&gt;</span>
+                <p class="panel-title">Ideas.<br>Código.<br><span>Soluciones.</span></p>
+                <div class="panel-tags"><span>Web</span><span>Backend</span><span>Datos</span></div>
+                <span class="code-label" aria-hidden="true">&lt;/developer&gt;</span>
+            </div>
         </div>
+    </header>
 
-        <div class="card">
-            <h3>Sistema de Gestión de Internado Institucional</h3>
-            <p>
-                Desarrollo de sistema para administración y control de estudiantes internos.
-                Registro, consulta y actualización de información mediante base de datos
-                relacional en MySQL. Implementado con PHP.
-            </p>
-        </div>
+    <main id="contenido" class="container" tabindex="-1">
+        <section id="sobre">
+            <p class="eyebrow">01 / PERFIL</p>
+            <h2>Sobre mí</h2>
+            <div class="about-grid">
+                <div class="card about-copy">
+                    <p>Estudiante de Ingeniería de Sistemas con enfoque en desarrollo de software y bases de datos relacionales.</p>
+                    <p>Experiencia en implementación de sistemas académicos y comerciales utilizando PHP, JavaScript y MySQL. Interesado en el área de desarrollo backend y soporte técnico.</p>
+                </div>
+                <div class="card about-focus">
+                    <h3>Mi enfoque</h3>
+                    <ul>
+                        <li><span>01</span> Desarrollo de aplicaciones web</li>
+                        <li><span>02</span> Sistemas de gestión e inventario</li>
+                        <li><span>03</span> Bases de datos relacionales</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
 
-        <div class="card">
-            <h3>Sistema de Ventas e Inventario</h3>
-            <p>
-                Sistema para registro y control de ventas y productos.
-                Gestión de inventario mediante base de datos relacional.
-                Desarrollado con PHP y MySQL.
-            </p>
-        </div>
+        <section id="tecnologias">
+            <p class="eyebrow">02 / HERRAMIENTAS</p>
+            <h2>Tecnologías</h2>
+            <p class="section-description">Las herramientas con las que trabajo, organizadas por área.</p>
+            <div class="technology-group">
+                <h3>Lenguajes</h3>
+                <div class="skills">
+                    <span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/python/python-original.svg" alt="" width="40" height="40">Python</span>
+                    <span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/javascript/javascript-original.svg" alt="" width="40" height="40">JavaScript</span>
+                    <span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/html5/html5-original.svg" alt="" width="40" height="40">HTML</span>
+                    <span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/css3/css3-original.svg" alt="" width="40" height="40">CSS</span>
+                    <span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/php/php-original.svg" alt="" width="40" height="40">PHP</span>
+                </div>
+            </div>
+            <div class="technology-group">
+                <h3>Frameworks</h3>
+                <div class="skills">
+                    <span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/laravel/laravel-original.svg" alt="" width="40" height="40">Laravel</span>
+                    <span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/angular/angular-original.svg" alt="" width="40" height="40">Angular</span>
+                    <span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/flutter/flutter-original.svg" alt="" width="40" height="40">Flutter</span>
+                    <span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/fastapi/fastapi-original.svg" alt="" width="40" height="40">FastAPI</span>
+                </div>
+            </div>
+            <div class="technology-group">
+                <h3>Bases de datos</h3>
+                <div class="skills">
+                    <span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/postgresql/postgresql-original.svg" alt="" width="40" height="40">PostgreSQL</span>
+                    <span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/mysql/mysql-original.svg" alt="" width="40" height="40">MySQL</span>
+                    <span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/microsoftsqlserver/microsoftsqlserver-original.svg" alt="" width="40" height="40">SQL Server</span>
+                    <span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/mongodb/mongodb-original.svg" alt="" width="40" height="40">MongoDB</span>
+                </div>
+            </div>
+            <div class="technology-group">
+                <h3>Herramientas</h3>
+                <div class="skills">
+                    <span><img class="github-logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/github/github-original.svg" alt="" width="40" height="40">GitHub</span>
+                    <span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/git/git-original.svg" alt="" width="40" height="40">Git</span>
+                    <span><img src="https://cdn.simpleicons.org/wireshark/1679A7" alt="" width="40" height="40">Wireshark</span>
+                </div>
+            </div>
+        </section>
 
-        <div class="card">
-            <h3>CRUD en PHP con MySQL</h3>
-            <p>
-                Implementación de operaciones Crear, Leer, Actualizar y Eliminar
-                con conexión a base de datos relacional.
-            </p>
-        </div>
+        <section id="proyectos">
+            <p class="eyebrow">03 / PROYECTOS</p>
+            <h2>Una muestra de mi trabajo</h2>
+            <p class="section-description">Sitios web y sistemas diseñados para resolver necesidades concretas.</p>
+            <article class="card featured-project">
+                <a class="project-preview" href="https://www.eliezer-srl.com/" target="_blank" rel="noopener noreferrer" aria-label="Visitar el sitio web de ELIEZER S.R.L. (nueva pestaña)">
+                    <img class="project-image" src="assets/eliezer.png" alt="Vista de la página de inicio de ELIEZER S.R.L., agencia despachante de aduana" width="1356" height="768" loading="lazy">
+                </a>
+                <div class="project-body">
+                    <p class="project-category">SITIO WEB CORPORATIVO</p>
+                    <h3>ELIEZER S.R.L.</h3>
+                    <p>Sitio web de una agencia despachante de aduana con información sobre servicios aduaneros, importaciones y exportaciones, y canales de contacto para consultas.</p>
+                    <a class="button button-primary" href="https://www.eliezer-srl.com/" target="_blank" rel="noopener noreferrer">Visitar sitio web <span aria-hidden="true">↗</span></a>
+                </div>
+            </article>
+            <div class="projects-grid">
+                <article class="card project-card">
+                    <span class="project-number" aria-hidden="true">01 /</span>
+                    <h3>Sistema de Gestión de Internado Institucional</h3>
+                    <p>Administración y control de estudiantes internos. Registro, consulta y actualización de información mediante una base de datos relacional.</p>
+                    <ul class="project-tags" aria-label="Tecnologías del proyecto"><li>PHP</li><li>MySQL</li></ul>
+                </article>
+                <article class="card project-card">
+                    <span class="project-number" aria-hidden="true">02 /</span>
+                    <h3>Sistema de Ventas e Inventario</h3>
+                    <p>Sistema para el registro y control de ventas y productos, con gestión de inventario mediante una base de datos relacional.</p>
+                    <ul class="project-tags" aria-label="Tecnologías del proyecto"><li>PHP</li><li>MySQL</li></ul>
+                </article>
+                <article class="card project-card">
+                    <span class="project-number" aria-hidden="true">03 /</span>
+                    <h3>CRUD en PHP con MySQL</h3>
+                    <p>Implementación de operaciones Crear, Leer, Actualizar y Eliminar con conexión a una base de datos relacional.</p>
+                    <ul class="project-tags" aria-label="Tecnologías del proyecto"><li>PHP</li><li>MySQL</li></ul>
+                </article>
+            </div>
+        </section>
 
-    </section>
+        <section id="contacto">
+            <div class="card contact-panel">
+                <div>
+                    <p class="eyebrow">04 / CONTACTO</p>
+                    <h2>Conversemos sobre<br><span>tu próximo proyecto.</span></h2>
+                    <p>Si quieres conocer más sobre mi trabajo o compartir una idea, puedes contactarme por estos medios.</p>
+                    <a class="button button-primary" href="mailto:gabrielzeballos5432@gmail.com">Enviar un correo <span aria-hidden="true">↗</span></a>
+                </div>
+                <address class="contact-links">
+                    <a href="mailto:gabrielzeballos5432@gmail.com"><span>Email</span>gabrielzeballos5432@gmail.com</a>
+                    <a href="tel:+59170725144"><span>Teléfono</span>+591 70725144</a>
+                    <a href="https://www.linkedin.com/in/gabrielzeballos" target="_blank" rel="noopener noreferrer"><span>LinkedIn</span>gabrielzeballos ↗</a>
+                    <a href="https://github.com/gabrielzeballos5432-ops" target="_blank" rel="noopener noreferrer"><span>GitHub</span>gabrielzeballos5432-ops ↗</a>
+                </address>
+            </div>
+        </section>
+    </main>
 
-    <section id ="contacto">
-        <h2>Contacto</h2>
-        <div class="card">
-            <p>Email: gabrielzeballos5432@gmail.com</p>
-            <p>Teléfono: +591 70725144</p>
-            <p>LinkedIn: www.linkedin.com/in/gabrielzeballos</p>
-            <button onclick="mensaje()">Enviar saludo</button>
-        </div>
-    </section>
-
-</div>
-
-<footer>
-    © 2026 - Gabriel Zeballos | Portafolio Profesional
-</footer>
-
-<script src="script.js"></script>
+    <footer class="container">
+        <p>© 2026 Gabriel Zeballos</p>
+        <p>Construido con HTML, CSS y JavaScript.</p>
+        <a href="#inicio">Volver arriba <span aria-hidden="true">↑</span></a>
+    </footer>
 </body>
 </html>
