@@ -144,19 +144,65 @@ h2 {
 }
 
 /* SKILLS */
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
 .skills span {
-    display: inline-block;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 110px;
+    gap: 10px;
     background: #1f1028;
     padding: 10px 18px;
     border-radius: 25px;
-    margin: 6px;
     font-size: 0.9rem;
     border: 1px solid #7b2cbf;
     transition: 0.3s;
 }
 
+.skills img {
+    display: block;
+    object-fit: contain;
+}
+
+.skills .github-logo {
+    filter: invert(1);
+}
+
 .skills span:hover {
     background: #7b2cbf;
+}
+
+.project-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.project-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 20px;
+    padding: 10px 18px;
+    border: 1px solid #7b2cbf;
+    border-radius: 25px;
+    color: #e5e5e5;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.project-link:hover,
+.project-link:focus-visible {
+    background: #7b2cbf;
+    box-shadow: 0 0 15px rgba(176, 38, 255, 0.4);
 }
 
 /* FOOTER */
