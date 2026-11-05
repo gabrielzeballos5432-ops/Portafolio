@@ -15,3 +15,4 @@ There is no configured build, test, or lint command. The site is served directly
 - Navigation uses native section anchors. The mobile menu shares the 640px breakpoint between CSS and JavaScript and keeps `aria-expanded` synchronized with `.is-open`; links remain available when JavaScript is disabled.
 - Cards are visible by default; IntersectionObserver adds a one-time `.reveal` animation. Respect `prefers-reduced-motion` in CSS and JavaScript without hiding content.
 - Technology logos are grouped by area, not generated in JavaScript. The ELIEZER preview is a local asset in `assets/`; preserve relative URLs for GitHub Pages.
+- `node scripts/github-activity.cjs` regenerates the contribution SVG using authenticated GitHub CLI. A scheduled workflow commits this asset; Pages reads the live image from the raw main-branch URL, while local viewing uses the bundled SVG. Never put API tokens in browser code.

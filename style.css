@@ -100,6 +100,12 @@ h3 { font-size: 1.2rem; }
 .project-card p { color: var(--muted); font-size: .9rem; margin: 16px 0 24px; }
 .project-tags { display: flex; flex-wrap: wrap; gap: 8px; margin-top: auto; }
 
+.github-panel { padding: 24px; }
+.github-calendar { overflow-x: auto; }
+.github-calendar img { display: block; width: 100%; min-width: 760px; height: auto; }
+.github-caption { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px; margin-top: 20px; }
+.github-caption p { color: var(--muted); font-size: .85rem; }
+
 .contact-panel { display: grid; grid-template-columns: 1.2fr 1fr; gap: 48px; padding: 48px; background: linear-gradient(120deg, #21172f, var(--surface)); }
 .contact-panel h2 { font-size: clamp(1.8rem, 3vw, 2.4rem); }
 .contact-panel p:not(.eyebrow) { color: var(--muted); }

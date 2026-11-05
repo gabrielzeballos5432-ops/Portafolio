@@ -42,6 +42,15 @@ document.addEventListener("click", event => {
 
 mobileMenu.addEventListener("change", closeMenu);
 
+const calendarImage = document.getElementById("github-calendar-image");
+const calendarStatus = document.getElementById("github-calendar-status");
+calendarImage.addEventListener("error", () => {
+    calendarStatus.textContent = "No se pudo cargar el calendario. Consulta tu actividad en el enlace a GitHub.";
+});
+if (window.location.hostname === "gabrielzeballos5432-ops.github.io") {
+    calendarImage.src = calendarImage.dataset.liveSrc;
+}
+
 // Content stays visible even without JavaScript or IntersectionObserver.
 if ("IntersectionObserver" in window && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
     const observer = new IntersectionObserver(entries => {
