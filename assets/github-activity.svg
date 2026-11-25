@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="859" height="224" viewBox="0 0 859 224" role="img" aria-labelledby="title description">
-<title id="title">458 contribuciones en el último año</title>
-<desc id="description">Calendario de contribuciones de GitHub. Actualizado el 2026-11-24 (UTC).</desc>
+<title id="title">468 contribuciones en el último año</title>
+<desc id="description">Calendario de contribuciones de GitHub. Actualizado el 2026-11-25 (UTC).</desc>
 <rect width="100%" height="100%" rx="12" fill="#15131e"/>
 <g font-family="Segoe UI, sans-serif" font-size="12" fill="#b4adbf">
-<text x="20" y="28" fill="#f3f0fa" font-size="16">458 contribuciones en el último año</text>
+<text x="20" y="28" fill="#f3f0fa" font-size="16">468 contribuciones en el último año</text>
 <text x="48" y="57">Nov</text>
 <rect x="48" y="68" width="12" height="12" rx="2" fill="#24212e"><title>2025-11-23: 0 contribuciones</title></rect>
 <rect x="48" y="83" width="12" height="12" rx="2" fill="#24212e"><title>2025-11-24: 0 contribuciones</title></rect>
@@ -367,7 +367,7 @@
 <rect x="783" y="128" width="12" height="12" rx="2" fill="#40c463"><title>2026-11-05: 7 contribuciones</title></rect>
 <rect x="783" y="143" width="12" height="12" rx="2" fill="#9be9a8"><title>2026-11-06: 2 contribuciones</title></rect>
 <rect x="783" y="158" width="12" height="12" rx="2" fill="#24212e"><title>2026-11-07: 0 contribuciones</title></rect>
-<rect x="798" y="68" width="12" height="12" rx="2" fill="#9be9a8"><title>2026-11-08: 3 contribuciones</title></rect>
+<rect x="798" y="68" width="12" height="12" rx="2" fill="#9be9a8"><title>2026-11-08: 4 contribuciones</title></rect>
 <rect x="798" y="83" width="12" height="12" rx="2" fill="#24212e"><title>2026-11-09: 0 contribuciones</title></rect>
 <rect x="798" y="98" width="12" height="12" rx="2" fill="#9be9a8"><title>2026-11-10: 3 contribuciones</title></rect>
 <rect x="798" y="113" width="12" height="12" rx="2" fill="#216e39"><title>2026-11-11: 16 contribuciones</title></rect>
@@ -376,18 +376,19 @@
 <rect x="798" y="158" width="12" height="12" rx="2" fill="#30a14e"><title>2026-11-14: 9 contribuciones</title></rect>
 <rect x="813" y="68" width="12" height="12" rx="2" fill="#24212e"><title>2026-11-15: 0 contribuciones</title></rect>
 <rect x="813" y="83" width="12" height="12" rx="2" fill="#9be9a8"><title>2026-11-16: 2 contribuciones</title></rect>
-<rect x="813" y="98" width="12" height="12" rx="2" fill="#9be9a8"><title>2026-11-17: 2 contribuciones</title></rect>
+<rect x="813" y="98" width="12" height="12" rx="2" fill="#40c463"><title>2026-11-17: 6 contribuciones</title></rect>
 <rect x="813" y="113" width="12" height="12" rx="2" fill="#9be9a8"><title>2026-11-18: 4 contribuciones</title></rect>
 <rect x="813" y="128" width="12" height="12" rx="2" fill="#9be9a8"><title>2026-11-19: 4 contribuciones</title></rect>
 <rect x="813" y="143" width="12" height="12" rx="2" fill="#9be9a8"><title>2026-11-20: 2 contribuciones</title></rect>
 <rect x="813" y="158" width="12" height="12" rx="2" fill="#24212e"><title>2026-11-21: 0 contribuciones</title></rect>
 <rect x="828" y="68" width="12" height="12" rx="2" fill="#24212e"><title>2026-11-22: 0 contribuciones</title></rect>
 <rect x="828" y="83" width="12" height="12" rx="2" fill="#24212e"><title>2026-11-23: 0 contribuciones</title></rect>
-<rect x="828" y="98" width="12" height="12" rx="2" fill="#9be9a8"><title>2026-11-24: 4 contribuciones</title></rect>
+<rect x="828" y="98" width="12" height="12" rx="2" fill="#40c463"><title>2026-11-24: 7 contribuciones</title></rect>
+<rect x="828" y="113" width="12" height="12" rx="2" fill="#9be9a8"><title>2026-11-25: 2 contribuciones</title></rect>
 <text x="14" y="93">Lun</text>
 <text x="14" y="123">Mié</text>
 <text x="14" y="153">Vie</text>
-<text x="20" y="204">Actualizado: 2026-11-24 · UTC</text>
+<text x="20" y="204">Actualizado: 2026-11-25 · UTC</text>
 <text x="695" y="204">Menos</text>
 <rect x="740" y="193" width="12" height="12" rx="2" fill="#24212e"/>
 <rect x="755" y="193" width="12" height="12" rx="2" fill="#0e4429"/>
